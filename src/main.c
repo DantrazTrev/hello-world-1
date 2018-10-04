@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "version.h"
+/*#include "version.h"*/
 
 int usage(int code)
 {
@@ -29,5 +29,6 @@ main(int argc, char **argv)
     }
 
     printf( "(version: %s)\n", _VERSION );
+    printf("by Jiang Xin");
     return 0;
 }
